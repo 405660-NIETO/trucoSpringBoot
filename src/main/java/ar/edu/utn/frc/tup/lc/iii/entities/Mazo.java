@@ -23,6 +23,7 @@ public class Mazo {
     public List<Card> listaHardcodeada(){
         Card card = new Card(Palo.ESPADA,1,1);
         Card card = new Card(Palo.BASTO,1,2);
-        
+        //TODO
+        return null;
     }
 }
