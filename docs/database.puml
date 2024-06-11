@@ -1,0 +1,26 @@
+@startuml
+
+' hide the spot
+' hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "Cards" {
+    * id : number <<generated>>
+    --
+    id_palo : number
+    number : number
+    value : number
+    --
+    * id_palo : number <<FK>>
+}
+
+entity "Palos" {
+  * id : number <<generated>>
+  --
+  * palo : varchar(10)
+}
+
+"Cards" ||..|{ "Palos"
+@enduml

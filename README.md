@@ -1,1 +1,1 @@
-# trucoSpringBoot
+# ddd-scaffolding-template
